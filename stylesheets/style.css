@@ -9,15 +9,20 @@ body {
 }
 */
 div.banner {
-    height: 100%;
-    display: block;
-    min-width: 300px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
 }
 img.banner {
-    vertical-align: bottom;
-    text-align: center;
-    border: 0;
-    height: 100%;
+    /* Set rules to fill background */
+    max-height: 100%;
+
+    /* Set up proportionate scaling */
+    height: auto;
+
+    /* Set up positioning */
+    position: fixed;
+
+    /* Align horizontally */
+    left:0;
+    right:0;
+    margin:0 auto;   
 }
