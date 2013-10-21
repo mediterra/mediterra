@@ -8,11 +8,16 @@ body {
     background: #FFF url(/images/mediterra.jpg) no-repeat bottom center;
 }
 */
+div.banner {
+    height: 100%;
+    display: block;
+    min-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
 img.banner {
-    display: inline-block;
     vertical-align: bottom;
     text-align: center;
-    margin: 0 auto;
     border: 0;
     height: 100%;
 }
