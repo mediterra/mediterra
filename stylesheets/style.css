@@ -3,6 +3,14 @@ html, body {
     padding: 0; margin: 0;
 }
 
+/*
 body {
     background: #FFF url(/images/mediterra.jpg) no-repeat bottom center;
+}
+*/
+img.banner {
+    vertical-align: bottom;
+    text-align: center;
+    margin: 0 auto;
+    border: 0;
 }
