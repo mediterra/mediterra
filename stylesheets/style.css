@@ -11,6 +11,6 @@ body {
 img.banner {
     vertical-align: bottom;
     text-align: center;
-    margin: 0 auto;
     border: 0;
+    height: 100%;
 }
